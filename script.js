@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const images = document.querySelectorAll('.skills img, .experience img, .education img, .projects img');
     const textDivs = document.querySelectorAll('.text-box');
-    const scaleFactor = 1.28; // This controls the zoom level
+    const scaleFactor = 1.28; // This will controls the zoom level
     const isImageVisible = Array(images.length).fill(true);
   
     images.forEach((image, index) => {
